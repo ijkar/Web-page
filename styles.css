@@ -1,7 +1,19 @@
-.h1{
+h1{
     font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 0.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333;
+}
+.boks{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 20px;
 }
