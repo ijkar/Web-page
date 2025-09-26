@@ -10,7 +10,7 @@ h1{
     background-color: #030f69;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(2, 164, 209, 0.692);
     max-width: 800px;
     margin: 20px auto;
 }
@@ -26,7 +26,7 @@ section{
     max-width: 800px;
     margin: 20px auto;
     background-color: #f0f0f0; /* fallback color */
-    background-image: url('/background_picture.jpg'); /* ensure correct relative path */
+    background-image: url('background_picture.jpg'); /* ensure correct relative path */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
