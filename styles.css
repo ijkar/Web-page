@@ -17,7 +17,12 @@ h1{
 
 body{
     text-align: center;
-    background-image: url('pexels-ella-olsson-572949-1640773.jpg');
+    background-image: url('background_picture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: fit-content;
 }
 #innledning{
     font-size: 1.2em;
