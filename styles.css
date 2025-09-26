@@ -17,12 +17,13 @@ h1{
 
 body{
     text-align: center;
-    background-image: url('background_picture.jpg');
+    background-color: #f0f0f0; /* fallback color */
+    background-image: url('./background_picture.jpg'); /* ensure correct relative path */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: fit-content;
+    min-height: 100vh; /* ensure body covers viewport */
 }
 #innledning{
     font-size: 1.2em;
