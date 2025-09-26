@@ -23,3 +23,15 @@ h1{
 body{
     text-align: center;
 }
+#innledning{
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+#ingredients-selector{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+}

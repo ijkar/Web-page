@@ -10,15 +10,40 @@
 <body>  
     <header id="header">  
         <h1>Velg din favorittmat!</h1>
+        <p id ='innledning'>Vi vet alle at det er vanskelig og finne riktig mat til 
+        riktig pris, og som student er det eksta vanskelig. Derfor 
+        skal vi hjelpe deg å finne gode tilbud og mat som passer.
+        </p>
     </header>
     <main class ="main">  
         <section id ="food-choices">   
-            <div>   
-                <p>NO</p>
+            <div>
+                <h2>Velg Mat</h2>   
+                <ol class ="ingredients-selector">
+                    <select id="Kjøtt-select">
+                        <option value="" disabled selected>--Protein--</option>
+                        <option value="kylling">Kylling</option>
+                        <option value="kjøttdeig">Kjøttdeig</option>
+                        <option value="fisk">Fisk</option>
+                        <option value="okse">Okse</option>
+                        <option value="billigst">Billigst</option>
+                        <option value="vegetar">Vegetar</option>
+                    </select>
+                    <select id ='Karbohydrat-select'>
+                        <option value="" disabled selected>--Karbohydrat--</option>
+                        <option value="ris">Ris</option>
+                        <option value="pasta">Pasta</option>
+                        <option value="potet">Potet</option>
+                        <option value="quinoa">Quinoa</option>
+                        <option value="billigst">Billigst</option>
+                        <option value="couscous">Couscous</option>
+                    </select>
+                </ol>
             </div>
-            <div class ="boks">   
+            <div class ="boks">
             </div>
-            <div>   
+            <div> 
+                 
                 <button id="choose-food" type='sumbit'>Velg Mat</button>
             </div>
         </section>
