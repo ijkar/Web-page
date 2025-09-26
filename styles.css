@@ -40,11 +40,9 @@ body{
     font-size: 1em;
 }
 #background-image{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    size-adjust: 100%;
+    width: auto;
+    height: auto;
     object-fit: cover;
     z-index: -1;
     opacity: 0.3;
