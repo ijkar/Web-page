@@ -17,7 +17,10 @@ h1{
 
 body{
     text-align: center;
-    /*background-image: url('images/background_picture.jpeg');*/ 
+    background-image: url('images/background_picture.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 section{
     padding: 20px;
@@ -25,13 +28,6 @@ section{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     margin: 20px auto;
-    background-color: #f0f0f0; /* fallback color */
-    background-image: url('images/background_picture.jpg'); /* ensure correct relative path */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    min-height: 100vh; /* ensure body covers viewport */
 }
 #innledning{
     font-size: 1.2em;
