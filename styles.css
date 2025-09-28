@@ -7,13 +7,14 @@ h1{
     text-shadow: 2px 2px 4px rgba(64, 3, 13, 0.998);
 }
 .overheng{
-    background-color: #030f69;
+    background-color: #07caf1;
     padding: 5% 5% 5% 5%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(2, 164, 209, 0.692);
     max-width: 80%;
     margin: 20px auto;
     opacity: solid;
+    justify-content: center;
 }
 html{
     scroll-behavior: smooth;
@@ -22,7 +23,27 @@ html{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-
+}
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: yellow;
+    text-decoration: underline;
+}
+.overheadbox{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+    margin: 0 10px;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    border-color: black;
+    background-color: darkblue;
 }
 
 body{
