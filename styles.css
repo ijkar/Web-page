@@ -8,11 +8,11 @@ h1{
 }
 .overheng{
     background-color: #07caf1;
-    padding: 5% 5% 5% 5%;
+    padding: 2% 2% 2% 2%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(2, 164, 209, 0.692);
     max-width: 80%;
-    margin: 20px auto;
+    margin: 2% auto;
     opacity: solid;
     justify-content: center;
 }
@@ -33,24 +33,33 @@ a:hover, a:active {
     text-decoration: underline;
 }
 .overheadbox{
-    display: inline-flex;
+    
     justify-content: space-between;
-    padding: 20px 25px;
-    margin: 0 10px;
+    width: 100%;
+    padding: 7% 10%;
+    /*
+    margin: 0 10% 0 10%;
     font-size: 1.2em;
     font-family: Arial, sans-serif;
     text-align: center;
     color: white;
     border-radius: 8px;
     border-color: black;
-    background-color: darkblue;
+    background-color: darkblue;*/
 }
-
+.overhead{
+    background-color: rgb(12, 38, 205);
+    padding: 2% 2% 2% 2%;
+    border-radius: 8px;
+    align-content: center;
+    size: 100%;
+    display: inline-flex;
+}
 body{
     text-align: center; 
     opacity: 0.9;
     background-color: #ffffff;
-    margin: 10%;
+    margin: 0 10% 0 10%;
     padding: 0;
 }
 #introduction{
