@@ -7,7 +7,7 @@ h1{
     text-shadow: 2px 2px 4px rgba(64, 3, 13, 0.998);
 }
 .overheng{
-    background-color: #07caf1;
+    background-color: blue;
     padding: 2% 2% 2% 2%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(2, 164, 209, 0.692);
@@ -32,28 +32,26 @@ a:hover, a:active {
     color: yellow;
     text-decoration: underline;
 }
+
 .overheadbox{
     
     justify-content: space-between;
-    width: 100%;
-    padding: 7% 10%;
-    /*
-    margin: 0 10% 0 10%;
-    font-size: 1.2em;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    color: white;
-    border-radius: 8px;
-    border-color: black;
-    background-color: darkblue;*/
+    align-items: center;
+    display: flex;
+    
+
 }
 .overhead{
-    background-color: rgb(12, 38, 205);
     padding: 2% 2% 2% 2%;
     border-radius: 8px;
-    align-content: center;
-    size: 100%;
-    display: inline-flex;
+    size: 90%;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
 }
 body{
     text-align: center; 
