@@ -1,0 +1,82 @@
+html{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+#rotatingDiv {
+    width: 10%;
+    height: 15%;
+    background: rgb(252, 110, 2);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    float: right;
+    display: block;
+}
+#targetDiv {
+    width: 10%;
+    height: 15%;
+    background: rgb(245, 4, 201);
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    float: left;
+    display: block;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    content: center;
+}
+#health1 {
+    width: 50%;
+    height: 10%;
+    background-color: rgb(2, 85, 2);
+    display: flex;
+    position: absolute;
+    left: 2%;
+    top: 10%;
+    float: left;
+}
+#health2 {
+    width: 50%;
+    height: 10%;
+    background-color: rgb(3, 248, 3);
+    display: flex;
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    float: right;
+
+}
+p{
+    display: flex;
+    
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    vertical-align: middle;
+}
+#sword1{
+    width: 15%;
+    height: 5%;
+    background-color: gray;
+    display: flex;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    float: left;
+    rotate: 90deg;
+}
+#sword2{
+    width: 15%;
+    height: 5%;
+    background-color: gray;
+    display: flex;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    float: right;
+    rotate: 90deg;
+}
